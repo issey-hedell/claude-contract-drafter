@@ -8,8 +8,12 @@ Thumbs.db
 
 # Output
 output/
-*.docx
-!templates/**/*.md
+
+# テンプレート（契約書のひな形はローカルのみ保持、push しない）
+templates/**/*.md
+templates/**/*.docx
+templates/**/*.txt
+!templates/README.md
 
 # Environment
 .env
